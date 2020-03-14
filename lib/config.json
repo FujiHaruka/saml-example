@@ -1,0 +1,7 @@
+{
+  "ISSUER": "urn:example:idp",
+  "SP_PORT": 3000,
+  "IDP_PORT": 3001,
+  "ASSERTION_CONSUMER_PATH": "/login/callback",
+  "AUDIENCE": "urn:example:sp"
+}

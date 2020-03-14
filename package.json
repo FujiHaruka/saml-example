@@ -1,0 +1,23 @@
+{
+  "name": "saml-example",
+  "description": "Small example of SAML Identity Provider and Service Provider",
+  "version": "1.0.0",
+  "author": "FujiHaruka",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "passport": "^0.4.1",
+    "passport-saml": "^1.3.3",
+    "saml-idp": "^1.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start:idp": "node lib/idp.js",
+    "start:sp": "node lib/sp.js"
+  }
+}
